@@ -1,0 +1,571 @@
+Total allocated: 6.56 MB (95606 objects)
+Total retained:  239.52 kB (2060 objects)
+
+allocated memory by gem
+[37m-----------------------------------[0m
+[37m   6.26 MB[0m  parallel-1.19.2
+[37m 293.37 kB[0m  other
+[37m   3.68 kB[0m  excon-0.76.0
+[37m   1.00 kB[0m  uri
+
+allocated memory by file
+[37m-----------------------------------[0m
+[37m   6.26 MB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb
+[37m 293.37 kB[0m  script3.rb
+[37m   2.70 kB[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb
+[37m  880.00 B[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m  656.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb
+[37m  120.00 B[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/idempotent.rb
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/utils.rb
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/base.rb
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/expects.rb
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/instrumentor.rb
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/mock.rb
+
+allocated memory by location
+[37m-----------------------------------[0m
+[37m   6.17 MB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+[37m 116.00 kB[0m  script3.rb:35
+[37m  96.00 kB[0m  script3.rb:32
+[37m  69.57 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:443
+[37m  60.00 kB[0m  script3.rb:33
+[37m  16.26 kB[0m  script3.rb:18
+[37m   6.35 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:211
+[37m   4.04 kB[0m  script3.rb:25
+[37m   4.03 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:442
+[37m   3.84 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:436
+[37m   2.00 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:114
+[37m   2.00 kB[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:66
+[37m  928.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:65
+[37m  608.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:426
+[37m  584.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:464
+[37m  576.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:207
+[37m  488.00 B[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:22
+[37m  384.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:209
+[37m  384.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:278
+[37m  360.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:184
+[37m  320.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:433
+[37m  320.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:388
+[37m  320.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:49
+[37m  320.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:83
+[37m  288.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:129
+[37m  288.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:135
+[37m  258.00 B[0m  script3.rb:27
+[37m  216.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:411
+[37m  200.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:204
+[37m  200.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:434
+[37m  192.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:472
+[37m  192.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:67
+[37m  192.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:246
+[37m  192.00 B[0m  script3.rb:14
+[37m  192.00 B[0m  script3.rb:22
+[37m  148.00 B[0m  script3.rb:26
+[37m  120.00 B[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:76
+[37m  112.00 B[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:39
+[37m  112.00 B[0m  script3.rb:21
+[37m  104.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:213
+[37m  104.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:379
+[37m  104.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:435
+[37m   88.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:101
+[37m   86.00 B[0m  script3.rb:44
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:142
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:507
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/idempotent.rb:8
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/utils.rb:68
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:182
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:267
+
+allocated memory by class
+[37m-----------------------------------[0m
+[37m   5.00 MB[0m  String
+[37m 904.01 kB[0m  Hash
+[37m 472.00 kB[0m  Excon::Headers
+[37m  72.96 kB[0m  IO
+[37m  52.18 kB[0m  Array
+[37m  48.00 kB[0m  Excon::Response
+[37m   4.99 kB[0m  Thread
+[37m   1.04 kB[0m  Proc
+[37m  584.00 B[0m  Parallel::Worker
+[37m  488.00 B[0m  MatchData
+[37m  320.00 B[0m  Process::Status
+[37m  256.00 B[0m  Enumerator
+[37m  216.00 B[0m  Thread::Mutex
+[37m  120.00 B[0m  URI::HTTPS
+[37m   86.00 B[0m  Time
+[37m   80.00 B[0m  Excon::Connection
+[37m   80.00 B[0m  Parallel::JobFactory
+[37m   40.00 B[0m  Client
+
+allocated objects by gem
+[37m-----------------------------------[0m
+[37m     92505[0m  parallel-1.19.2
+[37m      3069[0m  other
+[37m        22[0m  excon-0.76.0
+[37m        10[0m  uri
+
+allocated objects by file
+[37m-----------------------------------[0m
+[37m     92505[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb
+[37m      3069[0m  script3.rb
+[37m        12[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb
+[37m         7[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m         3[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m         3[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb
+[37m         2[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/utils.rb
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/base.rb
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/expects.rb
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/idempotent.rb
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/instrumentor.rb
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/mock.rb
+
+allocated objects by location
+[37m-----------------------------------[0m
+[37m     92249[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+[37m      1500[0m  script3.rb:33
+[37m      1000[0m  script3.rb:35
+[37m       500[0m  script3.rb:32
+[37m        58[0m  script3.rb:18
+[37m        50[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:114
+[37m        50[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:66
+[37m        33[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:211
+[37m        24[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:442
+[37m        24[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:443
+[37m        16[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:436
+[37m         8[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:388
+[37m         8[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:464
+[37m         8[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:49
+[37m         8[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:83
+[37m         5[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:184
+[37m         3[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:207
+[37m         2[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:433
+[37m         2[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:507
+[37m         2[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/utils.rb:68
+[37m         2[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:182
+[37m         2[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:209
+[37m         2[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:278
+[37m         2[0m  script3.rb:21
+[37m         2[0m  script3.rb:26
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:335
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:522
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:549
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:22
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:39
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:41
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:44
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:75
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:76
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:129
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:135
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon.rb:142
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:101
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:411
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:426
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:472
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:479
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:65
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:67
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/connection.rb:70
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/base.rb:8
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/expects.rb:6
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/idempotent.rb:8
+[37m         1[0m  /var/lib/gems/2.5.0/gems/excon-0.76.0/lib/excon/middlewares/instrumentor.rb:6
+
+allocated objects by class
+[37m-----------------------------------[0m
+[37m     91766[0m  String
+[37m      2040[0m  Hash
+[37m       720[0m  Array
+[37m       500[0m  Excon::Headers
+[37m       500[0m  Excon::Response
+[37m        32[0m  IO
+[37m        13[0m  Proc
+[37m         8[0m  Parallel::Worker
+[37m         8[0m  Process::Status
+[37m         8[0m  Thread
+[37m         3[0m  Thread::Mutex
+[37m         2[0m  Enumerator
+[37m         1[0m  Client
+[37m         1[0m  Excon::Connection
+[37m         1[0m  MatchData
+[37m         1[0m  Parallel::JobFactory
+[37m         1[0m  Time
+[37m         1[0m  URI::HTTPS
+
+retained memory by gem
+[37m-----------------------------------[0m
+[37m 238.90 kB[0m  other
+[37m  616.00 B[0m  parallel-1.19.2
+
+retained memory by file
+[37m-----------------------------------[0m
+[37m 238.90 kB[0m  script3.rb
+[37m  616.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb
+
+retained memory by location
+[37m-----------------------------------[0m
+[37m 116.00 kB[0m  script3.rb:35
+[37m  96.00 kB[0m  script3.rb:32
+[37m  20.00 kB[0m  script3.rb:33
+[37m   6.49 kB[0m  script3.rb:18
+[37m  258.00 B[0m  script3.rb:27
+[37m  192.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:207
+[37m  192.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:278
+[37m   86.00 B[0m  script3.rb:44
+[37m   80.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:267
+[37m   72.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:247
+[37m   72.00 B[0m  script3.rb:21
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:153
+[37m   40.00 B[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:501
+
+retained memory by class
+[37m-----------------------------------[0m
+[37m 192.38 kB[0m  Hash
+[37m  40.26 kB[0m  String
+[37m   6.57 kB[0m  Array
+[37m  144.00 B[0m  Thread::Mutex
+[37m   86.00 B[0m  Time
+[37m   80.00 B[0m  Parallel::JobFactory
+
+retained objects by gem
+[37m-----------------------------------[0m
+[37m      2054[0m  other
+[37m         6[0m  parallel-1.19.2
+
+retained objects by file
+[37m-----------------------------------[0m
+[37m      2054[0m  script3.rb
+[37m         6[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb
+
+retained objects by location
+[37m-----------------------------------[0m
+[37m      1000[0m  script3.rb:35
+[37m       500[0m  script3.rb:32
+[37m       500[0m  script3.rb:33
+[37m        51[0m  script3.rb:18
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:153
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:207
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:247
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:267
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:278
+[37m         1[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:501
+[37m         1[0m  script3.rb:21
+[37m         1[0m  script3.rb:27
+[37m         1[0m  script3.rb:44
+
+retained objects by class
+[37m-----------------------------------[0m
+[37m      1002[0m  Hash
+[37m      1001[0m  String
+[37m        53[0m  Array
+[37m         2[0m  Thread::Mutex
+[37m         1[0m  Parallel::JobFactory
+[37m         1[0m  Time
+
+
+Allocated String Report
+[37m-----------------------------------[0m
+[37m      2000[0m  [32m"cf-request-id"[0m
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Accept-Ranges"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Access-Control-Allow-Credentials"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Age"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"CF-Cache-Status"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"CF-RAY"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Cache-Control"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Connection"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Content-Length"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Content-Type"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Date"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Etag"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Expect-CT"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Expires"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Pragma"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Server"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Set-Cookie"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Vary"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"Via"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"X-Content-Type-Options"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"X-Powered-By"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"X-Ratelimit-Limit"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"X-Ratelimit-Remaining"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"X-Ratelimit-Reset"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"accept-ranges"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"access-control-allow-credentials"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"age"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"cache-control"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"cf-cache-status"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"cf-ray"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"connection"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"content-length"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"content-type"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"date"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"etag"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"expect-ct"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"expires"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"pragma"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"server"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"set-cookie"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"vary"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"via"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"x-content-type-options"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"x-powered-by"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"x-ratelimit-limit"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"x-ratelimit-remaining"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m      1000[0m  [32m"x-ratelimit-reset"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m       600[0m  [32m"max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""[0m
+[37m       600[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m       598[0m  [32m"HTTP/1.1 200 OK\r\n"[0m
+[37m       598[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+[37m       500[0m  [32m"-1"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/parallel-1.19.2/lib/parallel.rb:72
+
+
+Retained String Report
+[37m-----------------------------------[0m
+[37m       500[0m  [32m"application/json"[0m
+[37m       500[0m  script3.rb:35
+
+[37m         1[0m  [32m"/photos/1"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/10"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/100"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/101"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/102"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/103"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/104"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/105"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/106"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/107"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/108"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/109"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/11"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/110"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/111"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/112"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/113"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/114"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/115"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/116"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/117"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/118"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/119"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/12"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/120"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/121"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/122"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/123"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/124"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/125"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/126"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/127"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/128"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/129"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/13"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/130"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/131"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/132"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/133"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/134"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/135"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/136"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/137"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/138"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/139"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/14"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/140"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/141"[0m
+[37m         1[0m  script3.rb:33
+
+[37m         1[0m  [32m"/photos/142"[0m
+[37m         1[0m  script3.rb:33
+

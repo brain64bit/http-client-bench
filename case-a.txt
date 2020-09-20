@@ -1,0 +1,1222 @@
+Total allocated: 19.25 MB (271918 objects)
+Total retained:  1.74 MB (7768 objects)
+
+allocated memory by gem
+[37m-----------------------------------[0m
+[37m   8.07 MB[0m  faraday-1.0.1
+[37m   5.79 MB[0m  ethon-0.12.0
+[37m   1.31 MB[0m  typhoeus-1.4.0
+[37m   1.29 MB[0m  ffi-1.13.1
+[37m   1.25 MB[0m  uri
+[37m 758.97 kB[0m  rubygems
+[37m 418.85 kB[0m  net
+[37m 211.63 kB[0m  openssl
+[37m  72.11 kB[0m  other
+[37m  71.54 kB[0m  socket
+[37m   5.94 kB[0m  ipaddr
+[37m  832.00 B[0m  set
+[37m  584.00 B[0m  logger
+[37m  400.00 B[0m  io
+[37m   80.00 B[0m  forwardable
+[37m   72.00 B[0m  monitor
+
+allocated memory by file
+[37m-----------------------------------[0m
+[37m   6.65 MB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb
+[37m   1.49 MB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+[37m   1.27 MB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+[37m   1.13 MB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb
+[37m 968.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb
+[37m 783.40 kB[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m 721.47 kB[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb
+[37m 600.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb
+[37m 492.12 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb
+[37m 468.96 kB[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m 464.81 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb
+[37m 376.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb
+[37m 339.95 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb
+[37m 308.59 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb
+[37m 300.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb
+[37m 294.05 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+[37m 264.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb
+[37m 260.16 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+[37m 248.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy.rb
+[37m 232.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+[37m 226.13 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb
+[37m 154.66 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so
+[37m 120.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb
+[37m 104.01 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb
+[37m  84.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/request.rb
+[37m  80.78 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+[37m  72.56 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/rack_builder.rb
+[37m  72.11 kB[0m  script.rb
+[37m  70.48 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so
+[37m  60.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb
+[37m  60.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/encoders/nested_params_encoder.rb
+[37m  60.00 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb
+[37m  56.08 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+[37m  43.36 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+[37m  41.45 kB[0m  /usr/lib/ruby/2.5.0/net/http/responses.rb
+[37m  33.60 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+[37m  28.30 kB[0m  /usr/lib/ruby/2.5.0/rubygems/specification.rb
+[37m  28.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+[37m  20.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb
+[37m  20.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb
+[37m  20.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/response.rb
+[37m  20.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/addable.rb
+[37m  18.62 kB[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb
+[37m  17.14 kB[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb
+[37m  15.58 kB[0m  /usr/lib/ruby/2.5.0/net/protocol.rb
+[37m  10.00 kB[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb
+[37m   9.36 kB[0m  /usr/lib/ruby/2.5.0/net/http/requests.rb
+[37m   7.51 kB[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb
+[37m   5.94 kB[0m  /usr/lib/ruby/2.5.0/ipaddr.rb
+[37m   4.42 kB[0m  /usr/lib/ruby/2.5.0/rubygems/requirement.rb
+
+allocated memory by location
+[37m-----------------------------------[0m
+[37m   2.51 MB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m   1.47 MB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m   1.07 MB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+[37m 998.40 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+[37m 928.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:13
+[37m 906.12 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:147
+[37m 856.85 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m 721.03 kB[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+[37m 560.04 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:174
+[37m 508.49 kB[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:52
+[37m 496.65 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m 472.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb:81
+[37m 464.19 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:22
+[37m 380.04 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m 280.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:142
+[37m 240.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+[37m 200.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:101
+[37m 192.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:214
+[37m 184.18 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb:97
+[37m 180.45 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+[37m 168.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:123
+[37m 160.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:125
+[37m 160.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:521
+[37m 160.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:117
+[37m 154.66 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so:0
+[37m 144.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:142
+[37m 144.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:99
+[37m 144.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:116
+[37m 140.00 kB[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:982
+[37m 127.78 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+[37m 120.12 kB[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:80
+[37m 112.11 kB[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:53
+[37m 108.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+[37m 104.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:504
+[37m  96.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb:141
+[37m  96.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:503
+[37m  96.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:33
+[37m  96.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb:122
+[37m  96.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb:125
+[37m  84.00 kB[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:1049
+[37m  84.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:505
+[37m  80.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:107
+[37m  80.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:110
+[37m  80.00 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+[37m  72.00 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/rack_builder.rb:210
+[37m  70.48 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so:0
+[37m  68.09 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m  64.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+[37m  60.00 kB[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:1113
+[37m  60.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+
+allocated memory by class
+[37m-----------------------------------[0m
+[37m   8.19 MB[0m  String
+[37m   2.49 MB[0m  Hash
+[37m   1.85 MB[0m  Array
+[37m   1.65 MB[0m  FFI::Pointer
+[37m   1.05 MB[0m  MatchData
+[37m   1.05 MB[0m  Thread
+[37m 576.21 kB[0m  Faraday::Utils::Headers
+[37m 523.60 kB[0m  FFI::MemoryPointer
+[37m 227.45 kB[0m  File
+[37m 200.24 kB[0m  Integer
+[37m 192.40 kB[0m  Class
+[37m 184.72 kB[0m  Proc
+[37m 120.12 kB[0m  URI::Generic
+[37m  96.19 kB[0m  Faraday::Utils::ParamsHash
+[37m  72.00 kB[0m  Faraday::Env
+[37m  64.26 kB[0m  Faraday::RequestOptions
+[37m  60.36 kB[0m  URI::HTTPS
+[37m  56.02 kB[0m  Typhoeus::Request
+[37m  50.54 kB[0m  Method
+[37m  47.43 kB[0m  Regexp
+[37m  44.01 kB[0m  Ethon::Easy::Http::Get
+[37m  44.00 kB[0m  Faraday::Request
+[37m  40.00 kB[0m  Ethon::Easy::Mirror
+[37m  40.00 kB[0m  Typhoeus::Response
+[37m  39.26 kB[0m  FFI::AutoPointer
+[37m  38.42 kB[0m  Ethon::Easy
+[37m  38.10 kB[0m  Module
+[37m  28.04 kB[0m  FFI::AutoPointer::CallableReleaser
+[37m  28.00 kB[0m  Ethon::Easy::DebugInfo
+[37m  24.00 kB[0m  FFI::Function
+[37m  21.68 kB[0m  Ethon::Curl::Msg
+[37m  20.00 kB[0m  Ethon::Curl::MsgData
+[37m  20.00 kB[0m  Ethon::Easy::Form
+[37m  20.00 kB[0m  Ethon::Easy::Params
+[37m  20.00 kB[0m  Faraday::Response
+[37m  20.00 kB[0m  Typhoeus::EasyFactory
+[37m  880.00 B[0m  Gem::Dependency
+[37m  560.00 B[0m  Gem::Requirement
+[37m  480.00 B[0m  Symbol
+[37m  448.00 B[0m  Faraday::ConnectionOptions
+[37m  304.00 B[0m  Faraday::SSLOptions
+[37m  200.00 B[0m  Range
+[37m  144.00 B[0m  Thread::Mutex
+[37m  128.00 B[0m  Enumerator
+[37m  120.00 B[0m  Ethon::Curl::FDSet
+[37m  120.00 B[0m  Ethon::Multi
+[37m  120.00 B[0m  Faraday::Connection
+[37m  120.00 B[0m  Logger::LogDevice
+[37m   88.00 B[0m  OpenSSL::X509::Store
+[37m   86.00 B[0m  Time
+
+allocated objects by gem
+[37m-----------------------------------[0m
+[37m    121135[0m  faraday-1.0.1
+[37m     83060[0m  ethon-0.12.0
+[37m     19487[0m  ffi-1.13.1
+[37m     16715[0m  typhoeus-1.4.0
+[37m     13043[0m  uri
+[37m      9475[0m  rubygems
+[37m      4458[0m  net
+[37m      1987[0m  openssl
+[37m      1517[0m  other
+[37m      1001[0m  socket
+[37m        18[0m  ipaddr
+[37m        10[0m  io
+[37m         5[0m  logger
+[37m         4[0m  set
+[37m         2[0m  forwardable
+[37m         1[0m  monitor
+
+allocated objects by file
+[37m-----------------------------------[0m
+[37m    109565[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb
+[37m     37255[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+[37m     15501[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb
+[37m     15000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb
+[37m      9212[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb
+[37m      8518[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m      6200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy.rb
+[37m      6004[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+[37m      5602[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+[37m      4525[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m      4179[0m  /usr/lib/ruby/2.5.0/net/http.rb
+[37m      4000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+[37m      3509[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb
+[37m      3500[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb
+[37m      3023[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb
+[37m      3004[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb
+[37m      2700[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+[37m      2500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http/actionable.rb
+[37m      2500[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/response_callbacks.rb
+[37m      1570[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so
+[37m      1517[0m  script.rb
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/encoders/nested_params_encoder.rb
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/request.rb
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb
+[37m      1402[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+[37m      1201[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+[37m      1084[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb
+[37m      1002[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb
+[37m       994[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so
+[37m       700[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+[37m       600[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+[37m       514[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/rack_builder.rb
+[37m       500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/form.rb
+[37m       500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/params.rb
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/response.rb
+[37m       500[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra/addable.rb
+[37m       132[0m  /usr/lib/ruby/2.5.0/net/http/responses.rb
+[37m       120[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb
+[37m       115[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb
+[37m        86[0m  /usr/lib/ruby/2.5.0/rubygems/requirement.rb
+[37m        84[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb
+[37m        79[0m  /usr/lib/ruby/2.5.0/rubygems/specification.rb
+[37m        74[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb
+[37m        49[0m  /usr/lib/ruby/2.5.0/net/protocol.rb
+[37m        45[0m  /usr/lib/ruby/2.5.0/net/http/requests.rb
+[37m        44[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_gem.rb
+
+allocated objects by location
+[37m-----------------------------------[0m
+[37m     49004[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m     22653[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:147
+[37m     21008[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m     14501[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m     14001[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb:174
+[37m     13501[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:60
+[37m     12003[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m      9501[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m      9201[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+[37m      7000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:142
+[37m      6000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy.rb:236
+[37m      5000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:101
+[37m      4000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:125
+[37m      3500[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:982
+[37m      2002[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb:97
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:107
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/infos.rb:110
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+[37m      2000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/easy_factory.rb:124
+[37m      1570[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so:0
+[37m      1501[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:52
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:56
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb:20
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_layout.rb:72
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:137
+[37m      1500[0m  script.rb:49
+[37m      1084[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/struct_by_reference.rb:69
+[37m      1004[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:522
+[37m      1004[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:549
+[37m      1001[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:53
+[37m      1001[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:80
+[37m      1000[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:59
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:13
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/mirror.rb:17
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:505
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:521
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb:78
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/request.rb:95
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:117
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb:137
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:214
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:121
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb:140
+[37m       994[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so:0
+[37m       830[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m       728[0m  /usr/lib/ruby/2.5.0/net/http.rb:1642
+
+allocated objects by class
+[37m-----------------------------------[0m
+[37m    150049[0m  String
+[37m     41355[0m  FFI::Pointer
+[37m     34818[0m  Array
+[37m     13090[0m  FFI::MemoryPointer
+[37m      7776[0m  Hash
+[37m      5006[0m  Integer
+[37m      3010[0m  MatchData
+[37m      2189[0m  Proc
+[37m      1001[0m  Faraday::Utils::Headers
+[37m      1001[0m  URI::Generic
+[37m      1000[0m  Ethon::Easy::Mirror
+[37m      1000[0m  Typhoeus::Response
+[37m       702[0m  Method
+[37m       701[0m  FFI::AutoPointer
+[37m       701[0m  FFI::AutoPointer::CallableReleaser
+[37m       700[0m  Ethon::Easy::DebugInfo
+[37m       600[0m  FFI::Function
+[37m       542[0m  Ethon::Curl::Msg
+[37m       503[0m  URI::HTTPS
+[37m       502[0m  Faraday::RequestOptions
+[37m       501[0m  Faraday::Utils::ParamsHash
+[37m       500[0m  Ethon::Curl::MsgData
+[37m       500[0m  Ethon::Easy::Form
+[37m       500[0m  Ethon::Easy::Http::Get
+[37m       500[0m  Ethon::Easy::Params
+[37m       500[0m  Faraday::Env
+[37m       500[0m  Faraday::Request
+[37m       500[0m  Faraday::Response
+[37m       500[0m  Typhoeus::EasyFactory
+[37m       500[0m  Typhoeus::Request
+[37m       278[0m  Class
+[37m       200[0m  Ethon::Easy
+[37m        74[0m  Regexp
+[37m        27[0m  File
+[37m        20[0m  Module
+[37m        14[0m  Gem::Requirement
+[37m        12[0m  Symbol
+[37m        11[0m  Gem::Dependency
+[37m         5[0m  Range
+[37m         4[0m  Faraday::ConnectionOptions
+[37m         3[0m  Ethon::Curl::FDSet
+[37m         2[0m  Faraday::RackBuilder::Handler
+[37m         2[0m  Faraday::SSLOptions
+[37m         2[0m  Set
+[37m         2[0m  Thread::Mutex
+[37m         1[0m  Client
+[37m         1[0m  Enumerator
+[37m         1[0m  Ethon::Curl::Timeval
+[37m         1[0m  Ethon::Multi
+[37m         1[0m  Faraday::Adapter::Typhoeus
+
+retained memory by gem
+[37m-----------------------------------[0m
+[37m   1.23 MB[0m  ethon-0.12.0
+[37m 166.17 kB[0m  openssl
+[37m 125.01 kB[0m  net
+[37m  67.74 kB[0m  rubygems
+[37m  51.70 kB[0m  socket
+[37m  41.71 kB[0m  typhoeus-1.4.0
+[37m  32.08 kB[0m  ffi-1.13.1
+[37m  13.76 kB[0m  faraday-1.0.1
+[37m   5.64 kB[0m  ipaddr
+[37m  688.00 B[0m  other
+[37m  672.00 B[0m  set
+[37m  488.00 B[0m  uri
+[37m  200.00 B[0m  io
+[37m  160.00 B[0m  logger
+[37m   72.00 B[0m  monitor
+
+retained memory by file
+[37m-----------------------------------[0m
+[37m   1.07 MB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+[37m 127.02 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so
+[37m  82.02 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+[37m  66.75 kB[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb
+[37m  51.00 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so
+[37m  46.99 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb
+[37m  41.45 kB[0m  /usr/lib/ruby/2.5.0/net/http/responses.rb
+[37m  40.78 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+[37m  33.60 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+[37m  33.60 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+[37m  32.08 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+[37m  15.30 kB[0m  /usr/lib/ruby/2.5.0/net/protocol.rb
+[37m  14.50 kB[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb
+[37m   9.36 kB[0m  /usr/lib/ruby/2.5.0/net/http/requests.rb
+[37m   8.42 kB[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb
+[37m   8.26 kB[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb
+[37m   8.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+[37m   7.80 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb
+[37m   5.64 kB[0m  /usr/lib/ruby/2.5.0/ipaddr.rb
+[37m   4.75 kB[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb
+[37m   3.10 kB[0m  /usr/lib/ruby/2.5.0/net/http/response.rb
+[37m   2.66 kB[0m  /usr/lib/ruby/2.5.0/net/http/exceptions.rb
+[37m   2.57 kB[0m  /usr/lib/ruby/2.5.0/net/http/header.rb
+[37m   2.46 kB[0m  /usr/lib/ruby/2.5.0/net/http/generic_request.rb
+[37m   1.69 kB[0m  /usr/lib/ruby/2.5.0/openssl/buffering.rb
+[37m   1.47 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/typhoeus.rb
+[37m   1.43 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/net_http.rb
+[37m   1.10 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb
+[37m   1.08 kB[0m  /usr/lib/ruby/2.5.0/openssl/pkcs5.rb
+[37m  816.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb
+[37m  720.00 B[0m  /usr/lib/ruby/2.5.0/rubygems/specification.rb
+[37m  704.00 B[0m  /usr/lib/ruby/2.5.0/socket.rb
+[37m  688.00 B[0m  script.rb
+[37m  672.00 B[0m  /usr/lib/ruby/2.5.0/set.rb
+[37m  568.00 B[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+[37m  560.00 B[0m  /usr/lib/ruby/2.5.0/net/http/proxy_delta.rb
+[37m  560.00 B[0m  /usr/lib/ruby/2.5.0/net/http/request.rb
+[37m  496.00 B[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb
+[37m  448.00 B[0m  /usr/lib/ruby/2.5.0/openssl/config.rb
+[37m  328.00 B[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m  328.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb
+[37m  304.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/rack_builder.rb
+[37m  232.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday.rb
+[37m  168.00 B[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/stack.rb
+[37m  160.00 B[0m  /usr/lib/ruby/2.5.0/logger.rb
+[37m  160.00 B[0m  /usr/lib/ruby/2.5.0/rubygems/requirement.rb
+[37m  160.00 B[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m  160.00 B[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+[37m  120.00 B[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/io/nonblock.so
+[37m  120.00 B[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/hydra.rb
+
+retained memory by location
+[37m-----------------------------------[0m
+[37m   1.07 MB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+[37m 127.02 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so:0
+[37m  66.75 kB[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+[37m  51.00 kB[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so:0
+[37m  38.42 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:43
+[37m  33.60 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+[37m  25.60 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+[37m  19.20 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:38
+[37m  19.20 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:53
+[37m  19.20 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:67
+[37m  16.04 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+[37m  16.04 kB[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+[37m  12.97 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m  10.40 kB[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:39
+[37m   8.42 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+[37m   8.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+[37m   8.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+[37m   8.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+[37m   8.00 kB[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+[37m   7.31 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:392
+[37m   6.05 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:1641
+[37m   5.39 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:1642
+[37m   5.02 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:1637
+[37m   4.98 kB[0m  /usr/lib/ruby/2.5.0/net/http.rb:23
+[37m   4.58 kB[0m  /usr/lib/ruby/2.5.0/net/protocol.rb:26
+[37m   4.16 kB[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:18
+[37m   3.30 kB[0m  /usr/lib/ruby/2.5.0/ipaddr.rb:42
+[37m   3.11 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m   2.57 kB[0m  /usr/lib/ruby/2.5.0/net/http/header.rb:11
+[37m   2.40 kB[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb:80
+[37m   2.36 kB[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:67
+[37m   2.19 kB[0m  /usr/lib/ruby/2.5.0/net/http/response.rb:17
+[37m   1.76 kB[0m  /usr/lib/ruby/2.5.0/net/http/responses.rb:232
+[37m   1.61 kB[0m  /usr/lib/ruby/2.5.0/net/http/generic_request.rb:7
+[37m   1.61 kB[0m  /usr/lib/ruby/2.5.0/net/protocol.rb:81
+[37m   1.61 kB[0m  /usr/lib/ruby/2.5.0/openssl/buffering.rb:22
+[37m   1.56 kB[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:28
+[37m   1.47 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/typhoeus.rb:7
+[37m   1.47 kB[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb:75
+[37m   1.38 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m   1.14 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/net_http.rb:15
+[37m   1.12 kB[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:22
+[37m   1.08 kB[0m  /usr/lib/ruby/2.5.0/net/protocol.rb:28
+[37m  960.00 B[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb:228
+[37m  952.00 B[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb:66
+[37m  944.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb:81
+[37m  865.00 B[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb:71
+[37m  840.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m  833.00 B[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m  824.00 B[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb:233
+
+retained memory by class
+[37m-----------------------------------[0m
+[37m   1.05 MB[0m  Thread
+[37m 191.94 kB[0m  Class
+[37m 152.77 kB[0m  String
+[37m  61.04 kB[0m  Proc
+[37m  46.36 kB[0m  Regexp
+[37m  38.42 kB[0m  Ethon::Easy
+[37m  38.10 kB[0m  Module
+[37m  32.53 kB[0m  Array
+[37m  28.94 kB[0m  Method
+[37m  24.00 kB[0m  FFI::Function
+[37m  22.46 kB[0m  FFI::AutoPointer
+[37m  16.04 kB[0m  FFI::AutoPointer::CallableReleaser
+[37m  16.04 kB[0m  FFI::Pointer
+[37m   8.00 kB[0m  Ethon::Easy::DebugInfo
+[37m   6.50 kB[0m  Hash
+[37m   1.36 kB[0m  Faraday::Utils::Headers
+[37m  480.00 B[0m  Symbol
+[37m  256.00 B[0m  Faraday::RequestOptions
+[37m  240.00 B[0m  FFI::MemoryPointer
+[37m  240.00 B[0m  Integer
+[37m  240.00 B[0m  URI::HTTPS
+[37m  200.00 B[0m  Range
+[37m  192.00 B[0m  Faraday::Utils::ParamsHash
+[37m  160.00 B[0m  Faraday::SSLOptions
+[37m  144.00 B[0m  Faraday::Env
+[37m  144.00 B[0m  Thread::Mutex
+[37m  120.00 B[0m  Ethon::Curl::FDSet
+[37m  120.00 B[0m  Ethon::Multi
+[37m  120.00 B[0m  Faraday::Connection
+[37m  120.00 B[0m  Logger::LogDevice
+[37m  112.00 B[0m  Faraday::ConnectionOptions
+[37m   88.00 B[0m  OpenSSL::X509::Store
+[37m   86.00 B[0m  Time
+[37m   80.00 B[0m  Faraday::Adapter::Typhoeus
+[37m   80.00 B[0m  Gem::Requirement
+[37m   80.00 B[0m  Logger
+[37m   80.00 B[0m  Set
+[37m   80.00 B[0m  Typhoeus::Hydra
+[37m   56.00 B[0m  OpenSSL::PKey::DH
+[37m   40.00 B[0m  Ethon::Curl::Timeval
+[37m   40.00 B[0m  Ethon::Easy::Form
+[37m   40.00 B[0m  Faraday::RackBuilder
+[37m   40.00 B[0m  Faraday::RackBuilder::Handler
+[37m   40.00 B[0m  Faraday::Response
+[37m   40.00 B[0m  Logger::Formatter
+
+retained objects by gem
+[37m-----------------------------------[0m
+[37m      3220[0m  ethon-0.12.0
+[37m      1096[0m  openssl
+[37m       927[0m  rubygems
+[37m       802[0m  ffi-1.13.1
+[37m       792[0m  net
+[37m       511[0m  socket
+[37m       212[0m  typhoeus-1.4.0
+[37m       176[0m  faraday-1.0.1
+[37m        12[0m  ipaddr
+[37m         5[0m  io
+[37m         5[0m  other
+[37m         5[0m  uri
+[37m         2[0m  logger
+[37m         2[0m  set
+[37m         1[0m  monitor
+
+retained objects by file
+[37m-----------------------------------[0m
+[37m      1201[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb
+[37m       920[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb
+[37m       880[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so
+[37m       802[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb
+[37m       602[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb
+[37m       600[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb
+[37m       600[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb
+[37m       535[0m  /usr/lib/ruby/2.5.0/net/http.rb
+[37m       507[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so
+[37m       201[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb
+[37m       145[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb
+[37m       132[0m  /usr/lib/ruby/2.5.0/net/http/responses.rb
+[37m        79[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb
+[37m        57[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb
+[37m        52[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb
+[37m        45[0m  /usr/lib/ruby/2.5.0/net/http/requests.rb
+[37m        42[0m  /usr/lib/ruby/2.5.0/net/protocol.rb
+[37m        16[0m  /usr/lib/ruby/2.5.0/openssl/x509.rb
+[37m        13[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/multi/operations.rb
+[37m        12[0m  /usr/lib/ruby/2.5.0/ipaddr.rb
+[37m        11[0m  /usr/lib/ruby/2.5.0/net/http/exceptions.rb
+[37m        11[0m  /usr/lib/ruby/2.5.0/net/http/response.rb
+[37m        10[0m  /usr/lib/ruby/2.5.0/net/http/generic_request.rb
+[37m         6[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb
+[37m         5[0m  /usr/lib/ruby/2.5.0/openssl/config.rb
+[37m         5[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/rack_builder.rb
+[37m         5[0m  script.rb
+[37m         4[0m  /usr/lib/ruby/2.5.0/openssl/buffering.rb
+[37m         4[0m  /usr/lib/ruby/2.5.0/rubygems/requirement.rb
+[37m         4[0m  /usr/lib/ruby/2.5.0/socket.rb
+[37m         4[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter.rb
+[37m         4[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request/callbacks.rb
+[37m         3[0m  /usr/lib/ruby/2.5.0/openssl/pkcs5.rb
+[37m         3[0m  /usr/lib/ruby/2.5.0/uri/generic.rb
+[37m         3[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/io/nonblock.so
+[37m         3[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/net_http.rb
+[37m         3[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/adapter/typhoeus.rb
+[37m         3[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/options.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/logger.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/net/http/header.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/net/http/proxy_delta.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/net/http/request.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/rubygems/specification.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/set.rb
+[37m         2[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+[37m         2[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/io/wait.so
+[37m         2[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday.rb
+[37m         2[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/adapters/faraday.rb
+[37m         1[0m  /usr/lib/ruby/2.5.0/monitor.rb
+
+retained objects by location
+[37m-----------------------------------[0m
+[37m       920[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+[37m       880[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/openssl.so:0
+[37m       602[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/curls/options.rb:103
+[37m       600[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/operations.rb:13
+[37m       507[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so:0
+[37m       401[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:87
+[37m       401[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/autopointer.rb:96
+[37m       400[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:31
+[37m       201[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:28
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:38
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:53
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:67
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/debug_info.rb:22
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/header.rb:27
+[37m       200[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/pool.rb:43
+[37m       127[0m  /usr/lib/ruby/2.5.0/net/http.rb:1642
+[37m        99[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m        79[0m  /usr/lib/ruby/2.5.0/net/http.rb:23
+[37m        70[0m  /usr/lib/ruby/2.5.0/net/http.rb:1641
+[37m        67[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m        60[0m  /usr/lib/ruby/2.5.0/net/http.rb:1637
+[37m        32[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m        24[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb:228
+[37m        21[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m        20[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:39
+[37m        20[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m        16[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m        16[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m        11[0m  /usr/lib/ruby/2.5.0/net/http.rb:1646
+[37m        11[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m        10[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:40
+[37m        10[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:44
+[37m        10[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:45
+[37m         8[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         8[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:18
+[37m         8[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:19
+[37m         7[0m  /usr/lib/ruby/2.5.0/net/http.rb:1488
+[37m         6[0m  /usr/lib/ruby/2.5.0/net/http.rb:1633
+[37m         6[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:33
+[37m         5[0m  /usr/lib/ruby/2.5.0/net/http.rb:1638
+[37m         4[0m  /usr/lib/ruby/2.5.0/openssl/ssl.rb:102
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:392
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:722
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:725
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:782
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:791
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:858
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:865
+
+retained objects by class
+[37m-----------------------------------[0m
+[37m      3358[0m  String
+[37m       710[0m  Array
+[37m       643[0m  Proc
+[37m       600[0m  FFI::Function
+[37m       402[0m  Method
+[37m       401[0m  FFI::AutoPointer
+[37m       401[0m  FFI::AutoPointer::CallableReleaser
+[37m       401[0m  FFI::Pointer
+[37m       277[0m  Class
+[37m       200[0m  Ethon::Easy
+[37m       200[0m  Ethon::Easy::DebugInfo
+[37m        72[0m  Regexp
+[37m        20[0m  Module
+[37m        18[0m  Hash
+[37m        12[0m  Symbol
+[37m         6[0m  FFI::MemoryPointer
+[37m         6[0m  Integer
+[37m         5[0m  Range
+[37m         3[0m  Ethon::Curl::FDSet
+[37m         3[0m  Faraday::Utils::Headers
+[37m         2[0m  Faraday::RequestOptions
+[37m         2[0m  Gem::Requirement
+[37m         2[0m  Set
+[37m         2[0m  Thread::Mutex
+[37m         2[0m  URI::HTTPS
+[37m         1[0m  Ethon::Curl::Timeval
+[37m         1[0m  Ethon::Easy::Form
+[37m         1[0m  Ethon::Multi
+[37m         1[0m  Faraday::Adapter::Typhoeus
+[37m         1[0m  Faraday::Connection
+[37m         1[0m  Faraday::ConnectionOptions
+[37m         1[0m  Faraday::Env
+[37m         1[0m  Faraday::RackBuilder
+[37m         1[0m  Faraday::RackBuilder::Handler
+[37m         1[0m  Faraday::Response
+[37m         1[0m  Faraday::SSLOptions
+[37m         1[0m  Faraday::Utils::ParamsHash
+[37m         1[0m  Logger
+[37m         1[0m  Logger::Formatter
+[37m         1[0m  Logger::LogDevice
+[37m         1[0m  OpenSSL::PKey::DH
+[37m         1[0m  OpenSSL::X509::Store
+[37m         1[0m  Thread
+[37m         1[0m  Time
+[37m         1[0m  Typhoeus::Hydra
+
+
+Allocated String Report
+[37m-----------------------------------[0m
+[37m      4456[0m  [32m""[0m
+[37m      1500[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:982
+[37m       500[0m  /usr/lib/ruby/2.5.0/uri/generic.rb:849
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/encoders/nested_params_encoder.rb:30
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/encoders/nested_params_encoder.rb:35
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/typhoeus-1.4.0/lib/typhoeus/request.rb:215
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+[37m        30[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+[37m         7[0m  /usr/lib/ruby/2.5.0/net/http.rb:1637
+[37m         6[0m  /usr/lib/ruby/2.5.0/net/http.rb:23
+[37m         5[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:1641
+[37m         3[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:44
+[37m         1[0m  /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb:61
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/connection.rb:432
+
+[37m      2501[0m  [32m"cf-request-id"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1503[0m  [32m"cache-control"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"etag"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"pragma"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"vary"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"via"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"x-content-type-options"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"x-powered-by"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"x-ratelimit-limit"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"x-ratelimit-remaining"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1503[0m  [32m"x-ratelimit-reset"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m      1502[0m  [32m"access-control-allow-credentials"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1500[0m  [32m"\x00"[0m
+[37m      1500[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/util.rb:20
+
+[37m      1500[0m  [32m"accept-ranges"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1500[0m  [32m"age"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1500[0m  [32m"cf-cache-status"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1500[0m  [32m"cf-ray"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1500[0m  [32m"expect-ct"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1500[0m  [32m"set-cookie"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+
+[37m      1006[0m  [32m"content-type"[0m
+[37m       502[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m         4[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+
+[37m      1004[0m  [32m"connection"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m         2[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+[37m         2[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m      1003[0m  [32m"content-length"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m         3[0m  /usr/lib/ruby/2.5.0/net/http.rb:1635
+
+[37m      1001[0m  [32m"Accept-Ranges"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"Age"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"CF-Cache-Status"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"CF-RAY"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"Date"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"Expect-CT"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"Server"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m      1001[0m  [32m"expires"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"104.31.82.145"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/ffi-1.13.1/lib/ffi/pointer.rb:62
+
+[37m      1000[0m  [32m"Accept-Ranges: bytes"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"CF-Cache-Status: HIT"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"Connection: keep-alive"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"Content-Type: application/json; charset=utf-8"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"Date: Sun, 20 Sep 2020 17:26:51 GMT"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"Get"[0m
+[37m      1000[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/http.rb:56
+
+[37m      1000[0m  [32m"HTTP/1.1 200 OK"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:117
+
+[37m      1000[0m  [32m"Server: cloudflare"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:114
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+
+[37m      1000[0m  [32m"date"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m      1000[0m  [32m"server"[0m
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:54
+[37m       500[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m       999[0m  [32m"Cache-Control"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"Etag"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"Expires"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"Pragma"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"Vary"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"Via"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+[37m       999[0m  [32m"X-Content-Type-Options"[0m
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m       499[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+
+
+Retained String Report
+[37m-----------------------------------[0m
+[37m       401[0m  [32m""[0m
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:25
+[37m       200[0m  /var/lib/gems/2.5.0/gems/ethon-0.12.0/lib/ethon/easy/callbacks.rb:26
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         4[0m  [32m"cf-request-id"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"AES"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"Accept-Ranges"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Age"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"BF"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"CAST5"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"CF-Cache-Status"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"CF-RAY"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Cache-Control"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Content-Type"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:46
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"DES"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"Date"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Etag"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Expect-CT"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Expires"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"IDEA"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"MD2"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"MD4"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"MD5"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"MDC2"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"OPTIONS"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/net/http.rb:1488
+[37m         1[0m  /usr/lib/ruby/2.5.0/net/http/requests.rb:48
+[37m         1[0m  /usr/lib/x86_64-linux-gnu/ruby/2.5.0/socket.so:0
+
+[37m         3[0m  [32m"Pragma"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"RC2"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"RC4"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"RC5"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:17
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/cipher.rb:24
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"RIPEMD160"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"SHA224"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:18
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/digest.rb:47
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         3[0m  [32m"Server"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Vary"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"Via"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"X-Content-Type-Options"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"X-Powered-By"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"X-Ratelimit-Limit"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"X-Ratelimit-Remaining"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"X-Ratelimit-Reset"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:62
+
+[37m         3[0m  [32m"access-control-allow-credentials"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"cache-control"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"etag"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"pragma"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"vary"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"via"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"x-content-type-options"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"x-powered-by"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"x-ratelimit-limit"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"x-ratelimit-remaining"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         3[0m  [32m"x-ratelimit-reset"[0m
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:122
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:48
+[37m         1[0m  /var/lib/gems/2.5.0/gems/faraday-1.0.1/lib/faraday/utils/headers.rb:59
+
+[37m         2[0m  [32m"\t"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/net/http.rb:1641
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/config.rb:117
+
+[37m         2[0m  [32m"\n"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/openssl/config.rb:115
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+
+[37m         2[0m  [32m"1.1"[0m
+[37m         1[0m  /usr/lib/ruby/2.5.0/net/http.rb:396
+[37m         1[0m  /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb:59
+

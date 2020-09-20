@@ -1,0 +1,1 @@
+{"lxc":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/agung/workspaces/ruby/faraday-memory","disabled":false,"__vagrantfile":true},"vagrant-notify":{"id":"vagrant-notify","guestpath":"/tmp/vagrant-notify","hostpath":"/tmp/vagrant-notify/9882c4ea836245e5aefdd7d146366ce3","disabled":false,"__vagrantfile":true}}}
